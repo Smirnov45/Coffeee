@@ -1,0 +1,440 @@
+@media screen  and (max-width:1200px) {
+    .navbar-left-img
+    {
+        width: 50px;
+    }
+    .navbar-left a 
+    {
+        font-size: 12px;
+    }
+
+    .navbar-right-find-a-store img 
+    {
+        width: 30px;
+    }
+
+    .navbar-right-find-a-store
+    {
+        font-size: 12px;
+    }
+
+    .container
+    {
+        width: 1000px;
+        margin-left: 9%;
+        height: 850px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px)
+{
+    .container
+    {
+        width: 800px;
+        margin-left: 4rem;
+    }
+    .product-left-img-coffee
+    {
+       margin-top: 6rem;
+    }
+    .product-left-img-croissant-img {
+        max-width: 45%;
+        margin-top: 18rem;
+    }
+    .navbar-right-join-now,.navbar-right-sing-in
+    {
+        padding: 5px 15px;
+    }
+    .navbar-right
+    {
+        padding-right: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:401px) {
+
+    .navbar
+    {
+        display: flexbox;
+        padding: 20px;
+        font-size: 10px;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        -webkit-box-shadow: none;
+        -moz-box-shadow:none;
+        box-shadow: none;
+        border-radius:0px;
+    }
+    
+    .container
+    {
+        background: white;
+        max-width: 400px;
+        margin-left: 0%;
+        margin-top: 3%;
+        border-radius: 0px;
+        height: 600px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow:none;
+        box-shadow: none;
+    }
+
+    .navbar-left-img 
+    {
+        width: 30px;
+    }
+
+    .navbar-left a 
+    {
+        text-transform: uppercase;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+        font-size: 7px;
+    }
+
+    .navbar-left , .navbar-right
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-left > * ,
+    .navbar-right > *
+    {
+        margin: 7px;
+    }
+
+    .navbar-right-find-a-store 
+    {
+        display: flex;
+        align-items: center;
+        font-weight:bold;
+        font-size: 9px;
+    }
+
+    .navbar-right-sing-in, .navbar-right-join-now
+    {
+        font-weight: 500;
+        border: 1px solid black;
+        border-radius: 40px;
+        padding: 3px 18px 3px 18px;
+        text-decoration: none;
+    }
+
+    .product-left-img-coffee 
+    {
+        max-width: 65%;
+        margin-left: 40%;
+        margin-top: 60px;
+
+    }
+    .product
+    {
+        display: flex;
+    }
+
+    .product-right-title
+    {
+        margin-top: 20px;
+        margin-left: 40%;
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .product-right-description
+    {
+        display: flex;
+        width: 54%;
+
+        padding-left:33%;
+        margin-top: 30px;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 9px;
+
+    }
+
+    .product-right-a
+    {
+        display: flex;
+        margin-left:38% ;
+        margin-top: 50px;
+        border: 1px solid rgb(117, 81, 37);
+        padding: 3px 15px 3px 15px;
+        max-width: 70px;
+        text-decoration: none;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 13px;
+        border-radius: 20px;
+        color: white;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(117, 81, 37);
+
+    }
+    .product-left-img-croissant-img 
+    {
+        max-width: 45%;
+        margin-left: 40%;
+        margin-top: 60%;
+    
+    }
+    .product-right-title-croissant
+    {
+        margin-top: 20%;
+        margin-left: 37%;
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .product-right-description-croissant
+    {
+        display: flex;
+        width: 54%;
+        align-items: center;
+        justify-content: center;
+        padding-left:33%;
+        margin-top: 30px;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 9px; 
+    }
+    
+    .product-right-a-croissant
+    {
+        display: flex;
+        margin-left:38% ;
+        margin-top: 50px;
+        border: 1px solid rgb(117, 81, 37);
+        padding: 3px 15px 3px 15px;
+        max-width: 70px;
+        text-decoration: none;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 13px;
+        border-radius: 40px;
+        color: white;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(117, 81, 37);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+
+    .navbar
+    {
+        display: flexbox;
+        padding: 20px;
+        font-size: 10px;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        -webkit-box-shadow: none;
+        -moz-box-shadow:none;
+        box-shadow: none;
+        border-radius:0px;
+    }
+    
+    .container
+    {
+        background: white;
+        width: 425px;
+        margin-left: 0%;
+        margin-top: 3%;
+        border-radius: 0px;
+        height: 600px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow:none;
+        box-shadow: none;
+    }
+
+    .navbar-left-img 
+    {
+        width: 30px;
+    }
+
+    .navbar-left a 
+    {
+        text-transform: uppercase;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+        font-size: 7px;
+    }
+
+    .navbar-left , .navbar-right
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-left > * ,
+    .navbar-right > *
+    {
+        margin: 7px;
+    }
+
+    .navbar-right-find-a-store 
+    {
+        display: flex;
+        align-items: center;
+        font-weight:bold;
+        font-size: 9px;
+    }
+
+    .navbar-right-sing-in, .navbar-right-join-now
+    {
+        font-weight: 500;
+        border: 1px solid black;
+        border-radius: 40px;
+        padding: 3px 18px 3px 18px;
+        text-decoration: none;
+    }
+
+    .product-left-img-coffee 
+    {
+        max-width: 55%;
+        margin-left: 30%;
+        margin-top: 60px;
+
+    }
+    .product
+    {
+        display: flex;
+    }
+
+    .product-right-title
+    {
+        margin-top: 20px;
+        margin-left: 24%;
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .product-right-description
+    {
+        display: flex;
+        width: 54%;
+        align-items: center;
+        justify-content: center;
+        padding-left:23%;
+        margin-top: 30px;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 9px;
+
+    }
+
+    .product-right-a
+    {
+        display: flex;
+        margin-left:24% ;
+        margin-top: 50px;
+        border: 1px solid rgb(117, 81, 37);
+        padding: 3px 15px 3px 15px;
+        max-width: 70px;
+        text-decoration: none;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 13px;
+        border-radius: 20px;
+        color: white;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(117, 81, 37);
+
+    }
+    .product-left-img-croissant-img 
+    {
+        max-width: 35%;
+        margin-left: 30%;
+        margin-top: 60%;
+    
+    }
+    .product-right-title-croissant
+    {
+        margin-top: 20%;
+        margin-left: 24%;
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .product-right-description-croissant
+    {
+        display: flex;
+        width: 54%;
+        align-items: center;
+        justify-content: center;
+        padding-left:23%;
+        margin-top: 30px;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 9px; 
+    }
+    
+    .product-right-a-croissant
+    {
+        display: flex;
+        margin-left:24% ;
+        margin-top: 50px;
+        border: 1px solid rgb(117, 81, 37);
+        padding: 3px 15px 3px 15px;
+        max-width: 70px;
+        text-decoration: none;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 13px;
+        border-radius: 40px;
+        color: white;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(117, 81, 37);
+    }
+}
